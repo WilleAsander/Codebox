@@ -1,0 +1,63 @@
+body {
+	font-family:arial;
+}
+h1 {
+	padding:0px;
+	margin:0px;
+}
+.container {
+	width:700px;
+	overflow: auto;
+	border:black solid 2px;
+	margin:auto;
+}
+.sidhuvud {
+	text-align:center;
+	color:white;
+	background-color: lightseagreen;
+    padding: 10PX;
+    border-bottom: black solid 2px;
+}
+.meny {
+	background-color:seagreen;
+    padding-top: 10px;
+ 
+}
+.fakta {
+    background-color: white;
+    padding:10px;
+    border-top: 2px black solid;    
+}
+nav ul {
+	list-style-type:none;
+	margin:0px;
+	padding:5px 0px 0px 0px;
+}
+nav li {
+	display:inline;
+}
+nav a {
+	text-decoration:none;
+	margin-left: 15px;
+	border:1px solid black;
+	background-color:lightseagreen;
+	border-bottom-width:0px;
+	padding:1px 5px;
+	color:white;
+}
+nav a:hover {
+	background-color:white;
+	color:black;
+}
+nav a#current {
+	background-color:white;
+	color:black;
+	border-bottom:2px solid white;
+}
+footer {
+    border-top: 2px black solid;
+	background-color:seagreen;
+    padding: 10px;
+	text-align: center;
+    margin: auto;
+}
